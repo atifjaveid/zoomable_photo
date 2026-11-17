@@ -1,0 +1,21 @@
+name: zoomable_photo_example
+description: "Example app for the zoomable_photo package: a photo grid that opens a zoomable, swipeable gallery."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  zoomable_photo:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

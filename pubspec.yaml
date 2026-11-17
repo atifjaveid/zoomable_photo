@@ -1,0 +1,32 @@
+name: zoomable_photo
+description: "Zoomable photos and galleries for Flutter: pinch, double-tap and mouse-wheel zoom, momentum, and swiping between photos that works while zoomed."
+version: 0.1.0
+repository: https://github.com/atifjaveid/zoomable_photo
+issue_tracker: https://github.com/atifjaveid/zoomable_photo/issues
+topics:
+  - image
+  - photo
+  - zoom
+  - gallery
+  - gestures
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+screenshots:
+  - description: A photo gallery, swiping between photos with a gap between them.
+    path: screenshots/swiping.webp
+  - description: A photo zoomed in where it was double-tapped.
+    path: screenshots/zoomed.webp
+  - description: The example app's full-screen gallery.
+    path: screenshots/gallery.webp
